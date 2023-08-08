@@ -1,0 +1,23 @@
+public String getStreet1() { 
+        return (String)fInfo.get("street1"); 
+    } 
+    public void setStreet1(String param1) { 
+        if (param1 != null) 
+            fInfo.put("street1", param1); 
+    } 
+ 
+	public String getStreet2() { 
+	    return (String)fInfo.get("street2"); 
+	} 
+	public void setStreet2(String param1) { 
+	    if (param1 != null) 
+	        fInfo.put("street2", param1); 
+	} 
+ 
+    public String getPostalCode() { 
+        return (String)fInfo.get("postalCode"); 
+    } 
+    public void setPostalCode(String param1) { 
+        if (param1 != null) 
+            fInfo.put("postalCode", param1); 
+    } 
