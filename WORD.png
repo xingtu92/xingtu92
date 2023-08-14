@@ -1,0 +1,7 @@
+import requests
+res=requests.get('https://img.lianzhixiu.com/uploads/allimg/202001/9999/a7b0199df8.jpg')
+
+with open('WORD.png','wb') as f:
+    # f.write(res.content)
+    for line in res.iter_content(1024):
+        f.write(line)
