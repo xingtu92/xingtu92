@@ -1,0 +1,18 @@
+ ```c++
+ int main()
+ {
+      init ();
+      updataBg();
+ 
+     return 0;
+ }
+void updataBg()
+{
+
+	putimage(0，0，&imgBgs[0]);
+    putimage(0，119，&imgBgs[1]);
+    putimage(0，330，&imgBgs[2]);
+    
+    
+    
+}
