@@ -1,0 +1,22 @@
+#pragma once
+ 
+#include <QTextBrowser>
+ 
+class History_Browser : public QTextBrowser
+{
+	Q_OBJECT
+ 
+public:
+	History_Browser();
+	~History_Browser();
+};
+
+#include "history_browser.h"
+ 
+History_Browser::History_Browser()
+{
+}
+ 
+History_Browser::~History_Browser()
+{
+}
